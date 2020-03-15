@@ -1,4 +1,8 @@
 spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
   datasource:
     url: jdbc:h2:mem:SpringBoot
     username: sa
